@@ -418,6 +418,7 @@ body {
 
 #technology .content .technology-left-side {
     display: flex;
+    height: 290px;
     gap: 30px;
 }
 

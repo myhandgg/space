@@ -21,7 +21,7 @@ firstBar.onclick = () => {
         e.classList.remove("active")
     })
     firstBar.classList.add("active")
-    let information = JSON.parse(myReq.responseText)
+    let  information = JSON.parse(myReq.responseText)
     crewRank.textContent = information.crew[0].role
     crewTitle.textContent = information.crew[0].name
     crewInfo.textContent = information.crew[0].bio
