@@ -79,6 +79,7 @@ body {
 @media (max-width:768px){
     .parent {
         background-image: url(../home/background-home-tablet.jpg);
+        height: 100%;
     }
     .parent header {
         padding: 0 0 0 50px;
@@ -359,6 +360,7 @@ body {
 @media (max-width:768px){
     #crew {
         background-image: url(../crew/background-crew-tablet.jpg);
+        height: 100%;
     }
     #crew .content {
         height: auto;
@@ -479,9 +481,10 @@ body {
 @media (max-width:768px){
     #technology {
         background-image: url(../technology/background-technology-tablet.jpg);
+        height: 100%;
     }
     #technology .content {
-        padding: 100px 15px 0 15px;
+        padding: 100px 15px 50px 15px;
     }
 }
 
