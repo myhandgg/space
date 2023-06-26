@@ -272,9 +272,10 @@ body {
     }
     .destination .right-side .planets {
         justify-content: center;
-        display: flex;
-        gap: 20px;
-        height: 40px;
+        gap: 0;
+    }
+    .destination .right-side .planets p {
+        margin-right: 20px;
     }
     .destination .right-side .info {
     gap: 0;
