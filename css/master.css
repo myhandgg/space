@@ -40,7 +40,9 @@ body {
     padding-right: 150px;
     margin: 0;
     list-style: none;
-    box-shadow: inset 0px 0px 20px 200px rgb(85,99,125);
+    backdrop-filter: blur(48px);
+    background-color: rgb(80 80 83 / 50%);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .2 );
     position: relative;
     min-height: 60px;
 }
@@ -274,8 +276,8 @@ body {
         justify-content: center;
     }
     .destination .right-side .info {
-    gap: 0;
-    justify-content: space-between;
+        gap: 0;
+        justify-content: space-between;
     }
 }
 
