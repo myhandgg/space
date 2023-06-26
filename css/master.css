@@ -272,6 +272,7 @@ body {
     }
     .destination .right-side .planets {
         justify-content: center;
+        display: flex;
         gap: 20px;
         height: 40px;
     }
